@@ -5,7 +5,7 @@ $QUIET = "" # Show messages on the screen
 
 # Welcome screen
 if ($QUIET -eq "") {
-    Write-Host "Pobieranie faktur z systemu KSeF"
+    Write-Host "Downloading invoices from the KSeF system"
     Write-Host "Copyright (c) 2025 - 2026 by Sebastian Stybel, www.BONO-IT.pl"
     Write-Host "----------------------------------------------------------------------"
 }
@@ -26,8 +26,8 @@ $KSeFCSVOutputDIR = "$LocDIR/$ROK/$MIE/_KSeF_/" # Path to the output directory f
 $KSeFOutputFileNameJSON = "ksef_output_$ROK$MIE.json"  # Name of the output file containing the list of invoices in JSON format
 $KSeFOutputFileNameCSV = "ksef_output_$ROK$MIE.csv" # Name of the output file containing the list of invoices in CSV format
 $KSeFOutputJSON = "$KSeFJSONOutputDIR$KSeFOutputFileNameJSON" # Location and name of the file containing the list of invoices in JSON format - used by the program (ksef-pdf-generator.exe) that generates invoices in PDF format
-$KSeFInvSub1DIR = "$LocDIR/$ROK/$MIE/Faktury-Sprzedaz/" # Path to the directory where sales invoices are to be downloaded (KSeF - Subject1)
-$KSeFInvSub2DIR = "$LocDIR/$ROK/$MIE/Faktury-Zakupowe/" # Path to the directory where purchase invoices are to be downloaded (KSeF - Subject2)
+$KSeFInvSub1DIR = "$LocDIR/$ROK/$MIE/Invoices-Sales/" # Path to the directory where sales invoices are to be downloaded (KSeF - Subject1)
+$KSeFInvSub2DIR = "$LocDIR/$ROK/$MIE/Invoices-Purchase/" # Path to the directory where purchase invoices are to be downloaded (KSeF - Subject2)
 
 # Creating the directory structure
 $NewDir = New-Item -ItemType Directory -Path $KSeFCSVOutputDIR -Force -ErrorAction SilentlyContinue
