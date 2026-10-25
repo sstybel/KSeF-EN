@@ -6,14 +6,19 @@
 
 ## 📘 Table of contents
 
-- [Introduction](#introduction)
-- [Creating a token in the **KSeF** system](#creating-a-token-in-the-ksef-system)
-- [Required tools](#required-tools)
-- [Downloading invoices in **KSeF XML** format](#downloading-invoices-in-ksef-xml-format)
-- [Downloading the invoice list in **CSV** format](#downloading-the-invoice-list-in-csv-format)
-- [Generating invoice visualizations in **PDF** format](#generating-invoice-visualizations-in-pdf-format)
-- [A script automating the process of downloading and generating documents from **KSeF** in **Windows PowerShell**](#a-script-automating-the-process-of-downloading-and-generating-documents-from-ksef-in-windows-powershell)
-- [Creating a task schedule in Windows to run the automation](#creating-a-task-schedule-in-windows-to-run-the-automation)
+- [System for retrieving invoices from the KSeF system - English version / wersja Polska](#system-for-retrieving-invoices-from-the-ksef-system---english-version--wersja-polska)
+  - [📘 Table of contents](#-table-of-contents)
+  - [Introduction](#introduction)
+  - [Creating a token in the KSeF system](#creating-a-token-in-the-ksef-system)
+  - [Required tools](#required-tools)
+  - [Downloading invoices in KSeF XML format](#downloading-invoices-in-ksef-xml-format)
+  - [Downloading the invoice list in CSV format](#downloading-the-invoice-list-in-csv-format)
+  - [Generating invoice visualizations in PDF format](#generating-invoice-visualizations-in-pdf-format)
+  - [A script automating the process of downloading and generating documents from KSeF in Windows PowerShell](#a-script-automating-the-process-of-downloading-and-generating-documents-from-ksef-in-windows-powershell)
+  - [Creating a task schedule in Windows to run the automation](#creating-a-task-schedule-in-windows-to-run-the-automation)
+  - [Download](#download)
+  - [GitHub](#github)
+  - [Copyright © 2025 - 2026 by Sebastian Stybel, www.BONO-IT.pl](#copyright--2025---2026-by-sebastian-stybel-wwwbono-itpl)
 
 ## Introduction
 
@@ -491,9 +496,9 @@ You can download the exported scheduled task from the [**BONO-IT_KSeF.xml**](htt
 
 <a href="https://github.com/sstybel/KSeF-EN/releases/latest"><img alt="Static Badge" src="https://img.shields.io/badge/download-red?style=for-the-badge&label=stable&color=%23FF0000&link=https%3A%2F%2Fgithub.com%2Fsstybel%2FKSeF-EN%2Freleases%2Flatest"></a> ![GitHub Release](https://img.shields.io/github/v/release/sstybel/KSeF-EN?sort=date&display_name=release&style=for-the-badge&logo=github&label=release&link=https%3A%2F%2Fgithub.com%2Fsstybel%2FKSeF-EN) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/sstybel/KSeF-EN/total?style=for-the-badge&logo=github&link=https%3A%2F%2Fgithub.com%2Fsstybel%2FKSeF-EN)
 
-## GitHub
+##  GitHub
 
-![GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=sstybel&show_icons=true&theme=react&hide_title=true&include_all_commits=true)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=sstybel&rank_icon=github&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=aura_dark)](https://github-stats-extended.vercel.app/api?username=sstybel&rank_icon=github&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=aura_dark)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=sstybel&langs_count=6&theme=monokai)](https://github-stats-extended.vercel.app/api/top-langs?username=sstybel&langs_count=6&theme=monokai)
 
 &nbsp;
 
